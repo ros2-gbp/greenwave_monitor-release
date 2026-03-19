@@ -1,0 +1,12 @@
+Source: ros-kilted-greenwave-monitor
+Section: misc
+Priority: optional
+Maintainer: Sean Gillen <sgillen@nvidia.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-kilted-ament-cmake, ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-pytest <!nocheck>, ros-kilted-ament-cmake-python, ros-kilted-ament-flake8 <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ament-pep257 <!nocheck>, ros-kilted-diagnostic-msgs, ros-kilted-greenwave-monitor-interfaces, ros-kilted-launch-testing <!nocheck>, ros-kilted-launch-testing-ros <!nocheck>, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-rosidl-default-generators, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace, ros-kilted-rosidl-typesupport-fastrtps-c, ros-kilted-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-greenwave-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-diagnostic-msgs, ros-kilted-greenwave-monitor-interfaces, ros-kilted-launch, ros-kilted-launch-ros, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace
+Description: A ROS 2 diagnostic tool for monitoring topic frame rates and latency metrics.
