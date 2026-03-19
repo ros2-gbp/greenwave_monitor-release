@@ -1,0 +1,12 @@
+Source: ros-jazzy-greenwave-monitor-interfaces
+Section: misc
+Priority: optional
+Maintainer: Sean Gillen <sgillen@nvidia.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-rosidl-default-generators, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-greenwave-monitor-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rosidl-default-runtime, ros-jazzy-ros-workspace
+Description: Interfaces for the greenwave_monitor package
