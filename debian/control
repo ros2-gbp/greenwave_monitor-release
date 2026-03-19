@@ -1,0 +1,12 @@
+Source: ros-humble-greenwave-monitor-interfaces
+Section: misc
+Priority: optional
+Maintainer: Sean Gillen <sgillen@nvidia.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-rosidl-default-generators, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-greenwave-monitor-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rosidl-default-runtime, ros-humble-ros-workspace
+Description: Interfaces for the greenwave_monitor package
