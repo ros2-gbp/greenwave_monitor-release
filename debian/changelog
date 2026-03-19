@@ -1,0 +1,19 @@
+ros-kilted-greenwave-monitor-interfaces (1.0.0-1bookworm) bookworm; urgency=high
+
+  * Add pre-commit for better linting (#25 <https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor/issues/25>)
+    Adds a pre-commit config that uses uncrustify and flake8 just like ament. ament isn't used directly since I wanted formatting to occur outside of a ROS environment when making small fixes. Also has other tools like whitespace, newline, copyright, yaml checks, code spelling, shell script formatting, and commit sign off checking.
+    Useful for fixing most issues with linting before it is pushed. Automatically reformats your commits, fixes copyright year issues, etc.
+  * Contributors: bmchalenv
+
+ -- Sean Gillen <sgillen@nvidia.com>  Fri, 27 Feb 2026 08:00:00 -0000
+
+ros-kilted-greenwave-monitor-interfaces (0.1.0-1bookworm) bookworm; urgency=high
+
+  * Update package.xml to add authors tag (#9 <https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor/issues/9>)
+  * Fixup headers, maintainers, README, lint, before public release (#5 <https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor/issues/5>)
+  * Initial Commit
+  * Contributors: Sean Gillen
+
+ -- Sean Gillen <sgillen@nvidia.com>  Thu, 09 Oct 2025 07:00:00 -0000
+
+
