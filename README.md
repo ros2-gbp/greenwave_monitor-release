@@ -1,3 +1,28 @@
+## greenwave_monitor (rolling) - 1.0.0-1
+
+The packages in the `greenwave_monitor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --new-track --rosdistro rolling --track rolling greenwave_monitor` on `Thu, 19 Mar 2026 20:06:52 -0000`
+
+These packages were released:
+- `greenwave_monitor`
+- `greenwave_monitor_interfaces`
+
+Version of package(s) in repository `greenwave_monitor`:
+
+- upstream repository: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## greenwave_monitor (kilted) - 1.0.0-1
 
 The packages in the `greenwave_monitor` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --new-track --rosdistro kilted --track kilted greenwave_monitor` on `Thu, 19 Mar 2026 20:03:48 -0000`
