@@ -1,0 +1,12 @@
+Source: ros-lyrical-greenwave-monitor
+Section: misc
+Priority: optional
+Maintainer: Sean Gillen <sgillen@nvidia.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-pytest <!nocheck>, ros-lyrical-ament-cmake-python, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ament-pep257 <!nocheck>, ros-lyrical-diagnostic-msgs, ros-lyrical-greenwave-monitor-interfaces, ros-lyrical-launch-testing <!nocheck>, ros-lyrical-launch-testing-ros <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rclpy, ros-lyrical-rosidl-default-generators, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/greenwave_monitor/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-greenwave-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-diagnostic-msgs, ros-lyrical-greenwave-monitor-interfaces, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-rclcpp, ros-lyrical-rclpy, ros-lyrical-rosidl-default-runtime, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: A ROS 2 diagnostic tool for monitoring topic frame rates and latency metrics.
