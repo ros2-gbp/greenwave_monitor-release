@@ -1,1 +1,1 @@
-{"base": "face731d9549", "parent": "debian/rolling/greenwave_monitor", "previous": "9bf5426e29c6", "trim": "", "trimbase": ""}
+{"base": "1a686ab", "parent": "debian/lyrical/greenwave_monitor", "previous": "1fb96ec", "trim": "", "trimbase": ""}
